@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/posts/:postId" element={<Post />} />
+        <Route path="/blogs/:postId" element={<Post />} />
       </Routes>
     </>
   );
